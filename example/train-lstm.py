@@ -1,8 +1,9 @@
 import sys
-def setup_inaiads_import():
-    new_path = r'../../'
+def setup_import():
+    new_path = r'../'
     if new_path not in sys.path:
         sys.path.append(new_path)
+setup_import()
 from hydroDL import pathSMAP
 from hydroDL.master import default, wrapMaster, train
 import os
