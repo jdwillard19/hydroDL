@@ -1,6 +1,6 @@
 import sys
 def setup_inaiads_import():
-    new_path = r'../'
+    new_path = r'../../'
     if new_path not in sys.path:
         sys.path.append(new_path)
 from hydroDL import pathSMAP
